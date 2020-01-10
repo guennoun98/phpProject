@@ -5,6 +5,7 @@ error_reporting(0);
 if(isset($_POST['submit']))
 {
 $fromdate=$_POST['fromdate'];
+
 $todate=$_POST['todate']; 
 $message=$_POST['message'];
 $useremail=$_SESSION['login'];
